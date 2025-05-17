@@ -1,0 +1,10 @@
+file '1346908.png'
+duration 1
+file '1347383.png'
+duration 1
+file '1358227.jpeg'
+duration 1
+file '1331473.png'
+duration 1
+file 'b3a5777a4467542a57a36baf8ac2a64c.jpg'
+duration 1
