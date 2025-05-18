@@ -53,7 +53,7 @@
                 </div>
             </div>
         </div>
-        {% for reel in reels %}
+        {% for reel, user_id in reels %}
             <div class="gallery-item">
                 <div class="reel-card">
                     <div class="reel-thumbnail">
@@ -61,7 +61,7 @@
                     </div>
                     <div class="reel-info">
                         <h3>Custom Reel</h3>
-                        <p>Created by: User</p>
+                        <p>Created by: User {{user_id}}</p>
                     </div>
                 </div>
             </div>

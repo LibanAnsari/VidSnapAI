@@ -45,6 +45,8 @@ def create():
 def gallery():
     reels = os.listdir("static/reels")
     print(reels)
-    return render_template("gallery.html", reels=reels)
+    reels_user = [(i, i[:-4]) for i in reels]
+    print(reels_user)
+    return render_template("gallery.html", reels=reels_user)
 
 app.run(debug=True)
